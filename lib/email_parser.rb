@@ -22,7 +22,6 @@ class EmailParser
   
   def third_parse
     first_parse 
-    second parse
   end
     
     
