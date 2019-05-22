@@ -26,11 +26,7 @@ class EmailParser
     
     
   def parse
-    if @emails
-     first_parse
-     elsif @emails == @emails.split(" ")
-      second parse
-    end
+     @emails.split(" ")
   end
 
 end
