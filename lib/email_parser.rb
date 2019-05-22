@@ -12,21 +12,10 @@ class EmailParser
     @emails = emails
   end
   
-  def first_parse
-    @emails.split(" ")    
-  end
-  
-  def second parse
-     @emails.split(", ")
-  end
-  
-  def third_parse
-    first_parse 
-  end
-    
+
     
   def parse
-     @emails.split(" ")
+     @emails.split(" "", ")
   end
 
 end
